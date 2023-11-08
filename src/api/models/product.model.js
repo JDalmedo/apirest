@@ -7,7 +7,7 @@ const ProductSchema = new mongoose.Schema(
       type: String,
       required: true,
       default:
-        "https://uning.es/wp-content/uploads/2016/08/ef3-placeholder-image.jpg",
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png',
     },
     price: { type: Number, required: true },
     description: { type: String, required: false },
